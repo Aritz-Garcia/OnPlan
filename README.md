@@ -72,9 +72,7 @@ Aplikazioaren APK instalatzeko, "[**Releases**](https://github.com/Aritz-Garcia/
 </div>
 
 ### Bideoa: 🎥
-https://github.com/Aritz-Garcia/OnPlan/assets/73273260/cff8645a-790b-46ef-af68-044cc1a25195
-
-
+https://github.com/Aritz-Garcia/OnPlan/assets/73273260/2cbee548-0bd0-4f11-8565-c2ec9e67f4dc
 
 ## Garatzaileak 👨🏻‍💻
 - **Aritz Garcia:** [@Aritz-Garcia](https://github.com/Aritz-Garcia)
