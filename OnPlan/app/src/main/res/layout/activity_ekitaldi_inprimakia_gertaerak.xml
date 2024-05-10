@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EkitaldiInprimakiaGertaerak">
+
+    <TextView
+        android:id="@+id/tvIzena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_del_suceso"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <EditText
+        android:id="@+id/etGertaeraIzena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nombre_del_suceso"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvIzena"
+        app:layout_constraintVertical_bias="0.028"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/tvGertaeraDeskribapena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descripcion"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etGertaeraIzena"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <EditText
+        android:id="@+id/etGertaeraDeskribapena"
+        android:layout_width="376dp"
+        android:layout_height="150dp"
+        android:autofillHints=""
+        android:ems="50"
+        android:gravity="start|top"
+        android:hint="@string/etDescripcion"
+        android:inputType="textMultiLine"
+        android:lines="6"
+        android:maxLines="6"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvGertaeraDeskribapena"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <TextView
+        android:id="@+id/tvEguna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dia_de_inicio_del_suceso"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etGertaeraDeskribapena"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <EditText
+        android:id="@+id/etGertaeraEguna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="@string/dia_de_inicio_del_suceso"
+        android:inputType="date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvEguna"
+        app:layout_constraintVertical_bias="0.046"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/tvOrdua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hora_de_inicio_del_suceso"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etGertaeraEguna"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <EditText
+        android:id="@+id/etGertaeraOrdua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="@string/hora_de_inicio_del_suceso"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvOrdua"
+        app:layout_constraintVertical_bias="0.118"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnVolverSuceso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnVolverAgenda"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etGertaeraOrdua"
+        app:layout_constraintVertical_bias="0.519" />
+
+    <Button
+        android:id="@+id/btnCrearSuceso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/crear_suceso"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.829"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etGertaeraOrdua"
+        app:layout_constraintVertical_bias="0.519" />
+</androidx.constraintlayout.widget.ConstraintLayout>

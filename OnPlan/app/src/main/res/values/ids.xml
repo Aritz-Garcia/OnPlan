@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nombreEvento" type="id" />
+    <item name="textDiaHoraIni" type="id" />
+    <item name="fechaInicio" type="id" />
+    <item name="horaInicio" type="id" />
+    <item name="textDiaHoraFin" type="id" />
+    <item name="fechaFin" type="id" />
+    <item name="horaFin" type="id" />
+    <item name="textAforo" type="id" />
+    <item name="aforo" type="id" />
+    <item name="textPresupuesto" type="id" />
+    <item name="presupuesto" type="id" />
+    <item name="textDescripcion" type="id" />
+    <item name="descrpcionEvento" type="id" />
+    <item name="btnSiguiente" type="id" />
+    <item name="linearLayout" type="id"/>
+</resources>

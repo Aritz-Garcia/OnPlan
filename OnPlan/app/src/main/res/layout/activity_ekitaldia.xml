@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/weff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EkitaldiActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/gdiudguwaiued"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/test"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/ekitaldiIzena"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Nombre del evento"
+            android:textColor="@color/mainColorDarker"
+            android:textSize="30dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ekitaldiDataHasiera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Placeholder"
+            android:textColor="@color/mainColorDarker"
+            android:textSize="14dp"
+            app:layout_constraintLeft_toRightOf="@+id/dataStart"
+            app:layout_constraintTop_toBottomOf="@+id/ekitaldiIzena" />
+
+        <TextView
+            android:id="@+id/ekitaldiDeskribapena"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Descripción :"
+            android:textColor="@color/mainColorDarker"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ekitaldiDataHasiera" />
+
+        <TextView
+            android:id="@+id/ekitaldiAurrekontuaText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Presupuesto :"
+            android:textColor="@color/mainColorDarker"
+            android:textSize="16dp"
+            app:layout_constraintEnd_toStartOf="@+id/ekitaldiAurrekontua"
+            app:layout_constraintTop_toBottomOf="@+id/ekitaldiDeskribapena" />
+
+        <TextView
+            android:id="@+id/ekitaldiGelaText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Sala :"
+            android:textColor="@color/mainColorDarker"
+            android:textSize="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ekitaldiDeskribapena" />
+
+        <TextView
+            android:id="@+id/headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Plan del evento:"
+            android:textColor="@color/mainColorDarker"
+            android:textSize="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ekitaldiGelaText" />
+
+        <TextView
+            android:id="@+id/dataStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/dataTextHasiera"
+            android:textColor="@color/mainColorDarker"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ekitaldiIzena" />
+
+        <TextView
+            android:id="@+id/dataMiddle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/dataTextErdia"
+            android:textColor="@color/mainColorDarker"
+            app:layout_constraintStart_toEndOf="@+id/ekitaldiDataHasiera"
+            app:layout_constraintTop_toBottomOf="@+id/ekitaldiIzena" />
+
+        <TextView
+            android:id="@+id/ekitaldiDataBukaera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Placeholder"
+            android:textColor="@color/mainColorDarker"
+            app:layout_constraintStart_toEndOf="@+id/dataMiddle"
+            app:layout_constraintTop_toBottomOf="@+id/ekitaldiIzena" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/dataTextBukaera"
+            android:textColor="@color/mainColorDarker"
+            app:layout_constraintStart_toEndOf="@+id/ekitaldiDataBukaera"
+            app:layout_constraintTop_toBottomOf="@+id/ekitaldiIzena" />
+
+        <TextView
+            android:id="@+id/ekitaldiAurrekontua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="TextView"
+            android:textColor="@color/mainColorDarker"
+            app:layout_constraintBottom_toBottomOf="@+id/ekitaldiAurrekontuaText"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/ekitaldiGela"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/mainColorDarker"
+            app:layout_constraintBottom_toBottomOf="@+id/ekitaldiGelaText"
+            app:layout_constraintStart_toEndOf="@+id/ekitaldiGelaText" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@android:drawable/ic_menu_edit" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gdiudguwaiued"
+        tools:context=".EkitaldiActivity">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/headline"
+            tools:layout_editor_absoluteX="16dp" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/atzeraEkitaldia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/btnVolverAgenda"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

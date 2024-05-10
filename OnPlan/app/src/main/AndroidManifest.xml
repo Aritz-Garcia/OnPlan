@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.e1t3.onplan">
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OnPlan">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="GOOGLE_API_KEY"/>
+        <activity
+            android:name=".EkitaldiInprimakiaGertaerak"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegistroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EkitaldiInprimakiaMota"
+            android:exported="false" />
+        <activity
+            android:name=".EzarpenakActivity"
+            android:exported="false"
+            android:label="@string/settings"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".EkitaldiInprimakiaGelak"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".EkitaldiInprimakia"
+            android:exported="false" />
+        <activity
+            android:name=".EkitaldiakIkusi"
+            android:label="@string/ekitaldiak"
+            android:exported="false" />
+        <activity
+            android:name=".EkitaldiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EkitaldiaEditatu"
+            android:label="@string/edizioa"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.OnPlan.NoActionBar" />
+        <activity
+            android:name=".ErabiltzaileAldaketak"
+            android:label="@string/erabiltzailea"
+            android:exported="false" />
+    </application>
+
+</manifest>

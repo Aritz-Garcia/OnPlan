@@ -1,0 +1,167 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">ON PLAN</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_user_name">Nombre de usuario</string>
+    <string name="nav_user_email" translatable="false">prueba@prueba.com</string>
+    <string name="nav_header_desc">Menu de navegación</string>
+    <string name="action_settings">Ajustes</string>
+
+    <string name="menu_agenda" translatable="true">Agenda</string>
+    <string name="menu_salas">Salas</string>
+    <string name="menu_kontaktua">Contacto</string>
+
+    <string name="button_sumarEvento">Sumar Evento</string>
+    <string name="funcion_sumarEvento" translatable="false">sumarEvento</string>
+    <string name="nombre_del_evento">Nombre del Evento</string>
+    <string name="dia_y_hora_de_inicio">Dia y hora de inicio:</string>
+    <string name="descripcion">Descripción:</string>
+    <string name="dia_y_hora_de_fin">Dia y hora de fin:</string>
+    <string name="aforo">Aforo:</string>
+    <string name="presupuesto">Presupuesto:</string>
+    <string name="btnVolverAgenda">Volver</string>
+    <string name="btnSiguiente">Siguiente</string>
+    <string name="fecha_final">Fecha final:</string>
+    <string name="fecha_inicio">Fecha inicio:</string>
+    <string name="hora_inicio">Hora Inicio:</string>
+    <string name="hora_fin">Hora Fin:</string>
+    <string name="vacio" translatable="false"> </string>
+    <string name="etAforo">Aforo</string>
+    <string name="etDescripcion">Descripción</string>
+    <string name="etPresupuesto">Presupuesto</string>
+    <string name="button">Botón</string>
+    <string name="volver_atras">Volver Atras</string>
+    <string name="title_activity_settings" translatable="false">Ajuste</string>
+    <string name="settings">Ajustes</string>
+
+    <!-- Visual -->
+    <string name="visual">Visual</string>
+    <string name="modo_oscuro">Modo oscuro</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Mensajes</string>
+    <string name="sync_header" translatable="false">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Tu firma</string>
+    <string name="reply_title" translatable="false">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title" translatable="false">Sync email periodically</string>
+    <string name="attachment_title" translatable="false">Download incoming attachments</string>
+    <string name="attachment_summary_on" translatable="false">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off" translatable="false">Only download attachments when manually requested</string>
+    <string name="crear_evento">Crear Evento</string>
+    <string name="large_text" translatable="false">MuchoTEsto</string>
+
+    <string name="pasahitza">Contraseña</string>
+    <string name="helbide_elektronikoa">Correo electronico</string>
+    <string name="sartu">Iniciar sesión</string>
+    <string name="erregistratu">Registrarse</string>
+    <string name="btnCerrarSesion">Cerrar Sesion</string>
+    <string name="btnEditarUsuario">Editar Usuario</string>
+    <string name="aukeratu">Elegir</string>
+    <string name="erabiltzaileDatuak">Datos de usuario</string>
+    <string name="abatar">Avatar</string>
+    <string name="erabiltzaileaEzabatu">Borrar usuario</string>
+    <string name="ekitaldiak">Eventos</string>
+    <string name="edizioa">Edicion</string>
+    <string name="erabiltzailea">Usuario</string>
+
+
+    <!--String de registro -->
+    <string name="Telefonoa">Telefono</string>
+    <string name="Email">Email</string>
+    <string name="DNI">DNI/NIF</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="dataTextHasiera" tools:ignore="MissingTranslation">"Del "</string>
+    <string name="dataTextErdia">" al "</string>
+    <string name="dataTextBukaera">" "</string>
+    <string name="Izena">Nombre</string>
+    <string name="Abizena">Apellido</string>
+    <string name="crear_suceso">Crear Suceso</string>
+    <string name="hora_de_inicio_del_suceso">Hora :</string>
+    <string name="dia_de_inicio_del_suceso">Dia :</string>
+    <string name="nombre_del_suceso">Nombre del suceso</string>
+    <string name="btnSalir">Salir</string>
+    <string name="guardar">Guardar</string>
+    <string name="gehitu_gertaera">Añadir suceso</string>
+    <string name="ezabatu">Eliminar</string>
+    <string name="gehitu">Añadir</string>
+    <string name="title_gertaera_popup">Nuevo suceso</string>
+
+    <string name="empresa">Empresa</string>
+    <string name="persona">Persona</string>
+    <string name="registro_aukeratu">Bat aukeratu behar da</string>
+
+    <string name="settings_visual" translatable="false">visual</string>
+    <string name="ospakizuna" >Celebración</string>
+    <string name="ikuskizuna" >Espectaculo</string>
+    <string name="hitzaldia" >Conferencia</string>
+    <string name="erakusketa" >Esposición</string>
+    <string name="beste_mota" >Otro</string>
+
+    <string name="gela_izena">Nombre: </string>
+    <string name="gela_edukiera">"Capacidad: "</string>
+    <string name="gela_prezioa">"Precio: "</string>
+    <string name="gela_gehigarria">"Extras: "</string>
+
+    <string name="dialog_error">Error</string>
+    <string name="dialog_aceptar">Aceptar</string>
+    <string name="dialog_fechaPasado">"La fecha seleccionada ya ha pasado, no se puede crear un evento ese dia"</string>
+    <string name="dialog_seleccinarTarea">Seleccione una tarea</string>
+    <string name="dialog_tarea_agregar">Agregar evento</string>
+    <string name="dialog_tarea_ver">Ver eventos</string>
+    <string name="dialog_cancelar">Cancelar</string>
+    <string name="dialog_datosMetidos">No hay datos metidos en la fecha de fin. Vuelve a intentarlo</string>
+    <string name="dialog_fechaIgualOAnterior">La fecha de fin es anterior o igual a la fecha de inicio. Vuelve a intentarlo</string>
+    <string name="dialog_sinSalas">No hay habitaciones para ese presupuesto y/o capacidad. Volver a intentarlo</string>
+    <string name="dialog_datosOtraVez">Vuelve a meter los datos</string>
+    <string name="dialog_salir">Salir</string>
+    <string name="dialog_seguroSalas">"¿Quieres elegir esta habitación? "</string>
+    <string name="dialog_aviso">Aviso</string>
+    <string name="dialog_masSucesos">¿Quieres crear más eventos?</string>
+    <string name="dialog_si">Si</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_fechaYHoraSucVacio">No hay datos metidos en la fecha y hora del suceso. Vuelve a intentarlo</string>
+    <string name="dialog_fechaAnterior">La fecha es anterior a la fecha de inicio del evento. Vuelve a intentarlo</string>
+    <string name="dialog_fechaPosterior">La fecha es posterior a la fecha de fin del evento. Vuelve a intentarlo</string>
+    <string name="dialog_seguroEkitaldi">"¿Quieres elegir este evento? "</string>
+    <string name="dialog_crearSucesos">¿Quieres crear un nuevo suceso para este evento?</string>
+    <string name="dialog_cuentaNoExiste">La cuenta no existe</string>
+    <string name="dialog_emailVacio">El apartado de email o contraseña esta vacia</string>
+
+    <string name="error_campoNecesario">Campo necesario</string>
+    <string name="error_soloLetras">Solo letras</string>
+    <string name="error_nadaNegativo">No puede ser negativo</string>
+    <string name="error_soloNumeros">Solo numeros</string>
+    <string name="error_numeroGrande">El numero es muy grande</string>
+    <string name="error_maximoNueve">Longitud de nueve</string>
+    <string name="error_repetirEmail">El email no se puede repetir</string>
+    <string name="error_letra">La letra no es correcta</string>
+    <string name="error_formatoDNI">El formato no es adecuado NNNNNNNNL</string>
+    <string name="error_formatoEmail">Formato aaaaa@aaaa.aaa</string>
+    <string name="error_caracteres">Minimo 6 caracteres</string>
+    <string name="error_compPass">Las dos contraseñas tienen que ser iguales</string>
+
+    <string name="toast_ondoIgota">Se ha subido correctamente</string>
+    <string name="ok">Aceptar</string>
+    <string name="nok">Cancelar</string>
+    <string name="gertaera_text">¿Quieres crear un suceso nuevo para este evento?</string>
+    <string name="ohartarazpena">Abiso</string>
+    <string name="bai">Si</string>
+    <string name="ez">No</string>
+    <string name="error_data">La fecha tiene que estar en el periodo del evento</string>
+    <string name="error_beharreskoa">Este campo es obligatorio</string>
+
+    <string name="kontaktua_desk">¿Le ha aparecido algún problema al utilizar nuestro servicio? ¡No lo guardes para ti, hazlo apaciguar de los siguientes medios!</string>
+    <string name="kontaktua_telefonoa">Telefono: </string>
+    <string name="kontaktua_telefono_zenbakia" translatable="false">+34 785 254 584</string>
+    <string name="kontaktua_email">"Correo Electronico: "</string>
+    <string name="kontaktua_email_value" translatable="false">administracion_onplan@onplan.com</string>
+    <string name="kontaktua_non">"Donde estamos: "</string>
+    <string name="kontaktua_non_value" translatable="false">Done Petri Plaza, 5, 48014 Bilbo, Bizkaia</string>
+
+</resources>

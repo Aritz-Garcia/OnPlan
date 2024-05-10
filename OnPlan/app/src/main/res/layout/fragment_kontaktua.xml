@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.kontaktua.KontaktuaFragment">
+
+    <LinearLayout
+        android:id="@+id/llKontaktua"
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/llDeskribapena"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDeskribapena"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/kontaktua_desk" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llKontaktuaMargin1"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="vertical"/>
+
+        <LinearLayout
+            android:id="@+id/llTelefonoa"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/llTelefonoaText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvTelefonoaText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/kontaktua_telefonoa"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llTelefonoaValue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvTelefonoaValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/kontaktua_telefono_zenbakia" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llKontaktuaMargin2"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:orientation="vertical"/>
+
+        <LinearLayout
+            android:id="@+id/llHelbideElektronikoa"
+            android:layout_width="match_parent"
+            android:layout_height="81dp">
+
+            <LinearLayout
+                android:id="@+id/llHelbideElektronikoaText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvHelbideElektronikoaText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/kontaktua_email"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llHelbideElektronikoaValue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvHelbideElektronikoaValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/kontaktua_email_value" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llKontaktuaMargin3"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="vertical"/>
+
+        <LinearLayout
+            android:id="@+id/llKokapena"
+            android:layout_width="match_parent"
+            android:layout_height="78dp">
+
+            <LinearLayout
+                android:id="@+id/llKokapenaText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvKokapenaText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/kontaktua_non"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llKokapenaValue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvKokapenaValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/kontaktua_non_value" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llKontaktuaMargin4"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:orientation="vertical"/>
+
+        <LinearLayout
+            android:id="@+id/llKontaktuaMaps"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:orientation="vertical">
+
+            <fragment
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                class="com.google.android.gms.maps.SupportMapFragment" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
